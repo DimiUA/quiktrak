@@ -1,4 +1,3 @@
-
 String.prototype.format = function (e) { var t = this; if (arguments.length > 0) if (arguments.length == 1 && typeof e == "object") { for (var n in e) if (e[n] != undefined) { var r = new RegExp("({" + n + "})", "g"); t = t.replace(r, e[n]) } } else for (var i = 0; i < arguments.length; i++) if (arguments[i] != undefined) { var r = new RegExp("({)" + i + "(})", "g"); t = t.replace(r, arguments[i]) } return t };
 String.prototype.subStrEx = function (e) { return this.length + 3 > e ? this.substr(0, e) + "..." : this };
 function isUndefined(e) { return "undefined" == typeof e };
@@ -166,24 +165,44 @@ Protocol = {
     ],
     Helper: {
         getSpeedValue: function (speedUnit, speed) {
-            var ret = 0;
+            let ret = 0;
             switch (speedUnit) {
                 case "KT":
-                    ret = parseInt(speed  * 0.53995680345572);
+                    ret = parseFloat(speed  * 0.53995680345572);
                     break;
                 case "KPH":
-                    ret = parseInt(speed);
+                    ret = parseFloat(speed);
                     break;
                 case "MPS":
-                    ret = parseInt(speed * 0.277777778);
+                    ret = parseFloat(speed * 0.277777778);
                     break;
                 case "MPH":
-                    ret = parseInt(speed * 0.621371192);
+                    ret = parseFloat(speed * 0.621371192);
                     break;
                 default:
                     break;
             }
-            return ret;
+            return Math.round(ret);
+        },
+        getSpeedValueInKM: function (speedUnit, speed) {
+            let ret = 0;
+            switch (speedUnit) {
+                case "KT":
+                    ret = parseFloat(speed  / 0.53995680345572);
+                    break;
+                case "KPH":
+                    ret = parseFloat(speed);
+                    break;
+                case "MPS":
+                    ret = parseFloat(speed / 0.277777778);
+                    break;
+                case "MPH":
+                    ret = parseFloat(speed / 0.621371192);
+                    break;
+                default:
+                    break;
+            }
+            return Math.round(ret);
         },
         getSpeedUnit: function (speedUnit) {
             var ret = "";
@@ -1012,7 +1031,6 @@ Protocol.ClassManager = {
         return ret;
     }
 };
-
 
 
 

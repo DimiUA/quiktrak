@@ -1,4 +1,3 @@
-
 window.LanguagePackages= {
 	"zh":{
 		
@@ -66,6 +65,7 @@ window.LanguagePackages= {
 		"COM_MSG59": "Active",
 		"COM_MSG60": "Inactive",
 		"COM_MSG61": "Hide Geofences",
+		"COM_MSG62": "Get New App",
 
 
 		"PROMPT_MSG001": "Live tracking started",
@@ -80,7 +80,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG010": "Are you sure want to delete this notification?",
 		"PROMPT_MSG011": "Are you sure want to delete geofence?",
 		"PROMPT_MSG012": "Are you sure want to exit the application?",	
-		"PROMPT_MSG013": "Something wrong. Please, try again later",
+		"PROMPT_MSG013": "An issue has been detected, please try again later or contact our support team",
 		"PROMPT_MSG014": "Delete notification?",	
 		"PROMPT_MSG015": "Are you sure you want to close the application?",	
 		"PROMPT_MSG016": "Are you sure you want to delete all notifications?",		
@@ -128,6 +128,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 
 		"LOGIN_MSG01": "The login(email) or password you entered is incorrect.",
@@ -486,6 +487,8 @@ window.LanguagePackages= {
 		"COM_MSG58": "None",
 		"COM_MSG59": "Active",
 		"COM_MSG60": "Inactive",
+		"COM_MSG61": "Hide Geofences",
+		"COM_MSG62": "Get New App",
 
 		"PROMPT_MSG001":"Inicio de seguimiento en vivo",
 		"PROMPT_MSG002":"Seguimiento en vivo detenido",
@@ -545,6 +548,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 		"LOGIN_MSG01":"El usuario (correo) o la contraseña ingresados son incorrectos",
 		"LOGIN_MSG02":"Nombre de usuario / Correo",
@@ -908,6 +912,8 @@ window.LanguagePackages= {
 		"COM_MSG58": "None",
 		"COM_MSG59": "Active",
 		"COM_MSG60": "Inactive",
+		"COM_MSG61": "Hide Geofences",
+		"COM_MSG62": "Get New App",
 
 		"PROMPT_MSG001": "Начало онлайн отслеживания",
 		"PROMPT_MSG002": "Онлайн отслеживание остановлено",
@@ -966,6 +972,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 		"LOGIN_MSG01": "Введен неверный логин (адрес электронной почты) или пароль.",
 		"LOGIN_MSG02": "Имя пользователя / E-mail",
@@ -1330,6 +1337,8 @@ window.LanguagePackages= {
 		"COM_MSG58": "None",
 		"COM_MSG59": "Active",
 		"COM_MSG60": "Inactive",
+		"COM_MSG61": "Hide Geofences",
+		"COM_MSG62": "Get New App",
 		
 		"PROMPT_MSG001": "Початок онлайн відстеження",
 		"PROMPT_MSG002": "Онлайн відстеження зупинено",
@@ -1388,6 +1397,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 		"LOGIN_MSG01": "Введено невірний логін (адреса електронної пошти) або пароль.",
 		"LOGIN_MSG02": "Ім'я користувача / E-mail",
@@ -1717,4 +1727,3 @@ if(!Template7.global)
 }
 
 Template7.global.LANGUAGE = window.LANGUAGE;
-
