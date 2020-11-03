@@ -1,4 +1,3 @@
-
 window.LanguagePackages= {
 	"zh":{
 		
@@ -129,7 +128,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
-		"PROMPT_MSG075": "NEW RELEASE -<br><b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 
 		"LOGIN_MSG01": "The login(email) or password you entered is incorrect.",
@@ -549,7 +548,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
-		"PROMPT_MSG075": "NEW RELEASE -<br><b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 		"LOGIN_MSG01":"El usuario (correo) o la contraseña ingresados son incorrectos",
 		"LOGIN_MSG02":"Nombre de usuario / Correo",
@@ -973,7 +972,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
-		"PROMPT_MSG075": "NEW RELEASE -<br><b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 		"LOGIN_MSG01": "Введен неверный логин (адрес электронной почты) или пароль.",
 		"LOGIN_MSG02": "Имя пользователя / E-mail",
@@ -1398,7 +1397,7 @@ window.LanguagePackages= {
 		"PROMPT_MSG072": "Draw a Geofence shape on map",
         "PROMPT_MSG073": "Share Geofence to Sub Accounts, they will can only view it, but not edit.",
         "PROMPT_MSG074": "Select time and week days when geofence should be ignored. Geofence alerts(In, Out) won't be triggered",
-		"PROMPT_MSG075": "NEW RELEASE -<br><b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
+		"PROMPT_MSG075": "NEW RELEASE - <b>QUIKTRAK PRO</b>.<br>Download Quiktrak PRO to see our latest updates and enhancements",
 
 		"LOGIN_MSG01": "Введено невірний логін (адреса електронної пошти) або пароль.",
 		"LOGIN_MSG02": "Ім'я користувача / E-mail",
@@ -1728,4 +1727,3 @@ if(!Template7.global)
 }
 
 Template7.global.LANGUAGE = window.LANGUAGE;
-

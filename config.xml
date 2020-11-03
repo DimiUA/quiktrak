@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget 
-  version="1.4.37"
-  android-versionCode="201"
-  ios-CFBundleVersion="201"
+  version="1.4.38"
+  android-versionCode="202"
+  ios-CFBundleVersion="202"
   id="com.sinopacific.quiktrak"
   xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:android="http://schemas.android.com/apk/res/android" defaultlocale="en-US" >
     <name>QuikTrak</name>
@@ -33,13 +33,23 @@
   	      <application android:usesCleartextTraffic="true" />
   	  </edit-config>
   	</platform>
+  	<platform name="ios">
+        <preference name="WKWebViewOnly" value="true" />
+        <feature name="CDVWKWebViewEngine">
+            <param name="ios-package" value="CDVWKWebViewEngine" />
+        </feature>
+        <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+        <edit-config target="ITSAppUsesNonExemptEncryption" file="*-Info.plist" mode="merge">
+          <false/>
+        </edit-config>   
+    </platform>
 
     <preference name="loadUrlTimeoutValue" value="700000" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="Orientation" value="portrait" />
-    <preference name="android-minSdkVersion" value="19" />
+    <preference name="android-minSdkVersion" value="22" />
     <!-- <preference name="android-maxSdkVersion" value="27" /> -->
-    <preference name="android-targetSdkVersion" value="28" />
+    <preference name="android-targetSdkVersion" value="29" />
     <preference name="multiDexEnabled" value="true" />     
     <preference name="deployment-target" value="10.2" />
     <preference name="StatusBarOverlaysWebView" value="false" />
@@ -49,7 +59,7 @@
     <preference name="phonegap-version" value="cli-9.0.0" />
 
     <preference name="android-build-tool" value="gradle" />
-    <plugin name="phonegap-plugin-push" source="npm" spec="2.1.2">
+    <plugin name="phonegap-plugin-push" source="npm" spec="2.3.0">
         <variable name="SENDER_ID" value="106187216531" />
     </plugin>
     <platform name="android">
@@ -71,7 +81,9 @@
 <!--     <plugin name="cordova-android-support-gradle-release" source="npm" /> -->
 <!--     <plugin name="cordova-android-firebase-gradle-release" source="npm" /> -->
     <plugin name="cordova-launch-review" source="npm" spec="3.1.1" />
-    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="3.0.0"  />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="4.0.0"  />
+    <plugin name="cordova-plugin-wkwebview-engine" spec="~1.2.1" />
+    <plugin name="cordova-plugin-wkwebview-file-xhr" spec="~2.1.4"/>
     
 
     <edit-config target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
@@ -86,9 +98,7 @@
     <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
         <string>Need photo library access to save pictures there</string>
     </edit-config>
-    <config-file platform="ios" target="*-Info.plist" parent="ITSAppUsesNonExemptEncryption">
-        <false/>
-    </config-file>  
+   
 
 
     <platform name="android">
